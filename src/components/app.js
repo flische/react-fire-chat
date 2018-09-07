@@ -6,8 +6,8 @@ import Chat from './chat';
 
 const App = () => (
     <div className="container">
-       <Route to="/" exact component={Home}></Route>
-       <Route to="/chat" component={Chat}></Route>
+       <Route path="/" exact component={Home}></Route>
+       <Route path="/chat" component={Chat}></Route>
     </div>
 );
 
